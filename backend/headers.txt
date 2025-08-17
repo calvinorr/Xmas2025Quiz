@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: http://localhost:3000
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Location: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A5001%2Fauth%2Fgoogle%2Fcallback&scope=profile%20email&client_id=799007099631-tiance14orq1n0m7m2tu395iacs7cdvs.apps.googleusercontent.com
+Content-Length: 0
+Date: Sun, 17 Aug 2025 09:20:06 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
